@@ -9,6 +9,16 @@
 
 /* Fonts slut */
 
+/* Buttons */
+.knap{
+    border: 2px black solid;
+    border-radius: 0px;
+    padding: 10px 65px;
+    background-color: transparent;
+}
+
+/* Buttons slut */
+
 html,body{
     margin: 0;
     box-sizing: border-box;
