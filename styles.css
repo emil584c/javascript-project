@@ -15,7 +15,7 @@
 
 /* Fonts slut */
 
-<<<<<<< Updated upstream
+
 /* Buttons */
 .knap{
     border: 2px black solid;
@@ -35,10 +35,6 @@
 /* Buttons slut */
 
 html,body{
-=======
-html,
-body {
->>>>>>> Stashed changes
     margin: 0;
     box-sizing: border-box;
 }
