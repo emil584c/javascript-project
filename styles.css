@@ -17,12 +17,13 @@
 
 
 /* Buttons */
-.knap{
+.knapper{
     border: 2px black solid;
     border-radius: 0px;
     padding: 10px 65px;
     background-color: transparent;
 }
+<<<<<<< Updated upstream
 
 .rebels{
     display: flex;
@@ -32,6 +33,28 @@
     flex-direction: row;
 }
 
+=======
+#knap1{
+    border: 2px white solid;
+    color: white;
+}
+#knap1:hover {
+    background-color: #47beaed6;
+    transition: 0.3s;
+}
+#knap2{
+    border: 2px black solid;
+    color: black;
+}
+#knap3{
+    border: 2px black solid;
+    color: black;
+}
+#knap4{
+    border: 2px black solid;
+    color: black;
+}
+>>>>>>> Stashed changes
 /* Buttons slut */
 
 html,body{
