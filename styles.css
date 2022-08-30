@@ -35,6 +35,7 @@ html,body{
 
 section{
     padding: 3rem 0;
+<<<<<<< Updated upstream
 }   
 
 .forsidebaggrund{
@@ -43,3 +44,72 @@ section{
     background-repeat: no-repeat;
     background-position: center;
 }
+=======
+}  
+
+/* Header styles */
+
+#masthead{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: Arial;
+    font-size: 18px;
+    color: #939598;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    z-index: 500;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.row {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: Arial;
+    font-size: 18px;
+    color: #939598;
+    box-sizing: border-box;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-sm-3 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: Arial;
+    font-size: 18px;
+    color: #939598;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 25%; 
+    
+}
+
+.col-sm-6 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: Arial;
+    font-size: 18px;
+    color: #939598;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 50%;
+}
+
+/* Header styles slut */
+>>>>>>> Stashed changes
