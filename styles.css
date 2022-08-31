@@ -12,6 +12,16 @@
 
 /* utility classes slut */
 
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.linje{
+    width: 65px;
+    height: 6px;
+    background-color: #d2d2d2;
+}
 
 /* Fonts */
 
@@ -74,10 +84,6 @@
 
 /* Buttons slut */
 
-html,body{
-    margin: 0;
-    box-sizing: border-box;
-}
 
 .split {
     display: flex;
