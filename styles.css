@@ -43,8 +43,6 @@ html,body{
     font-size: 1rem;
     line-height: 1.42857143;
 }
-<<<<<<< Updated upstream
-=======
 
 .h2-black{
     color: #161616;
@@ -68,7 +66,7 @@ html,body{
     line-height: 0.25;
 }
 
->>>>>>> Stashed changes
+
 /* Fonts slut */
 
 /* Drawing Paths */
@@ -172,6 +170,17 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+
+.pullup{
+    height: 50vh;
+    background-image: url(images/pullup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .kort1 {
