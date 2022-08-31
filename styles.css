@@ -23,6 +23,12 @@ html,body{
     background-color: #d2d2d2;
 }
 
+.linjekort {
+    width: 65px;
+    height: 6px;
+    background-color: #AD9755;
+}
+
 /* Fonts */
 .h1-forside{
     color: #f2f2f2;
@@ -93,6 +99,14 @@ html,body{
     border: 2px black solid;
     color: black;
 }
+#knap5{
+    border: 2px #F68800 solid;
+    color: black;
+}
+#knap6{
+    border: 2px #E21081 solid;
+    color: black;
+}
 
 /* Buttons slut */
 
@@ -123,6 +137,32 @@ section {
 .forsidebaggrund {
     height: 90vh;
     background-image: url(images/dameblå.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.kort1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 300px;
+    background-image: url(images/repeat_pile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.kort2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 300px;
+    background-image: url(images/repeat_plus.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -501,3 +541,12 @@ section {
 
 
 /* Header styles slut */
+
+@media screen and (min-width: 768px){
+    .split-kortene {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20%;
+    }
+}
