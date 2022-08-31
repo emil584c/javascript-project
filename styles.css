@@ -23,7 +23,7 @@
     padding: 10px 65px;
     background-color: transparent;
 }
-<<<<<<< Updated upstream
+
 
 .rebels{
     display: flex;
@@ -33,7 +33,7 @@
     flex-direction: row;
 }
 
-=======
+
 #knap1{
     border: 2px white solid;
     color: white;
@@ -54,7 +54,7 @@
     border: 2px black solid;
     color: black;
 }
->>>>>>> Stashed changes
+
 /* Buttons slut */
 
 html,body{
