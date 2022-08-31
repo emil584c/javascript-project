@@ -51,15 +51,32 @@ html,body{
     background-color: transparent;
 }
 
-
+/* Drawing Paths */
 .rebels{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
+.reborn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reinvent{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Drawing Paths */
 
 #knap1{
     border: 2px white solid;
