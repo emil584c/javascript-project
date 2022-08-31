@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+                
+
 /* utility classes */
 .background-white {
     background-color: #FFFFFF;
@@ -14,9 +17,16 @@
 
 .h1-forside{
     color: #f2f2f2;
+    font-size: 2.5rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 700;
 }
 .p-forside{
     color: #f2f2f2;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.42857143;
 }
 
 
