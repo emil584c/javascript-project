@@ -140,6 +140,12 @@ html,body{
 
 /* Buttons slut */
 
+.split-kortene{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
 
 .split {
     display: flex;
@@ -589,5 +595,6 @@ section {
         align-items: center;
         justify-content: center;
         gap: 20%;
+        flex-direction: row;
     }
 }
