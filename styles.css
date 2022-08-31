@@ -43,6 +43,32 @@ html,body{
     font-size: 1rem;
     line-height: 1.42857143;
 }
+<<<<<<< Updated upstream
+=======
+
+.h2-black{
+    color: #161616;
+    font-size: 2rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 700;
+}
+
+.h2-brown{
+    color: rgb(188, 135, 69);
+    font-size: 2rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+}
+
+.p-black{
+    color: #161616;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 0.25;
+}
+
+>>>>>>> Stashed changes
 /* Fonts slut */
 
 /* Drawing Paths */
@@ -70,7 +96,13 @@ html,body{
     flex-direction: column;
 }
 
-/* Drawing Paths */
+.linje-path{
+    width: 50px;
+    height: 6px;
+    background-color: #161616;
+}
+
+/* Drawing paths slut */
 
 /* Buttons */
 .knapper{
