@@ -1,7 +1,10 @@
 @import url('http://fonts.cdnfonts.com/css/gotham');
+<<<<<<< Updated upstream
 @import url(//db.onlinewebfonts.com/c/58ce323733cc570c3b62afae0f1d9156?family=NewCaledonia); 
 /* Miller ban replacement */
 
+=======
+>>>>>>> Stashed changes
 
 
 /* utility classes */
@@ -15,12 +18,18 @@
 
 /* utility classes slut */
 
-html,body{
-    margin: 0;
+* {
     box-sizing: border-box;
 }
 
-.linje{
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.linje {
     width: 65px;
     height: 6px;
     background-color: #d2d2d2;
@@ -33,13 +42,14 @@ html,body{
 }
 
 /* Fonts */
-.h1-forside{
+.h1-forside {
     color: #f2f2f2;
     font-size: 2.5rem;
     font-family: 'Gotham', sans-serif;
     font-weight: 700;
 }
-.p-forside{
+
+.p-forside {
     color: #f2f2f2;
     font-family: 'Gotham', sans-serif;
     font-weight: 500;
@@ -47,6 +57,7 @@ html,body{
     line-height: 1.42857143;
 }
 
+<<<<<<< Updated upstream
 .h2-black{
     color: #161616;
     font-size: 2rem;
@@ -70,10 +81,12 @@ html,body{
 }
 
 
+=======
+>>>>>>> Stashed changes
 /* Fonts slut */
 
 /* Drawing Paths */
-.rebels{
+.rebels {
     display: flex;
     text-align: center;
     align-items: center;
@@ -81,7 +94,7 @@ html,body{
     flex-direction: column;
 }
 
-.reborn{
+.reborn {
     display: flex;
     text-align: center;
     align-items: center;
@@ -89,7 +102,7 @@ html,body{
     flex-direction: column;
 }
 
-.reinvent{
+.reinvent {
     display: flex;
     text-align: center;
     align-items: center;
@@ -106,37 +119,44 @@ html,body{
 /* Drawing paths slut */
 
 /* Buttons */
-.knapper{
+.knapper {
     border: 2px black solid;
     border-radius: 0px;
     padding: 10px 65px;
     background-color: transparent;
 }
-#knap1{
+
+#knap1 {
     border: 2px white solid;
     color: white;
 }
+
 #knap1:hover {
     background-color: #47beaed6;
     transition: 0.3s;
 }
-#knap2{
+
+#knap2 {
     border: 2px black solid;
     color: black;
 }
-#knap3{
+
+#knap3 {
     border: 2px black solid;
     color: black;
 }
-#knap4{
+
+#knap4 {
     border: 2px black solid;
     color: black;
 }
-#knap5{
+
+#knap5 {
     border: 2px #F68800 solid;
     color: black;
 }
-#knap6{
+
+#knap6 {
     border: 2px #E21081 solid;
     color: black;
 }
@@ -263,7 +283,7 @@ section {
 
 #close {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -272,7 +292,7 @@ section {
     line-height: 1.8;
     -webkit-font-smoothing: antialiased;
     text-align: center !important;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 .join-button {
@@ -291,7 +311,7 @@ section {
 
 .join-button-pink-italic {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     list-style: none;
     -webkit-box-direction: normal;
     line-height: 1.8;
@@ -329,7 +349,7 @@ section {
 
 .login-button-italic {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     list-style: none;
     -webkit-box-direction: normal;
     line-height: 1.8;
@@ -353,7 +373,7 @@ section {
 
 .item179-first {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -367,7 +387,7 @@ section {
 
 .item163 {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -380,7 +400,7 @@ section {
 
 .item171 {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -394,7 +414,7 @@ section {
 
 .item314 {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -407,7 +427,7 @@ section {
 
 .dropdown-toggle-disabled {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     list-style: none;
     -webkit-box-direction: normal;
     line-height: 1.8;
@@ -431,7 +451,7 @@ section {
 
 .dropdown-menu {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     font-family: 'Libre Baskerville';
     line-height: 1.8;
@@ -465,7 +485,7 @@ section {
 
 .item316 {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -482,7 +502,7 @@ section {
 
 .item317 {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -504,7 +524,7 @@ section {
 
 .item396 {
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: #939598;
     list-style: none;
     -webkit-box-direction: normal;
@@ -522,20 +542,18 @@ section {
 /* Header styles */
 
 #masthead {
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    line-height: 1.42857143;
-    font-family: Arial;
-    font-size: 18px;
-    color: #939598;
-    box-sizing: border-box;
     position: fixed;
     width: 100%;
+    padding-top: 25px;
     top: 0;
     margin: 0;
     z-index: 500;
     padding: 25px;
     transition: 0.3s;
+}
+
+#masthead a {
+    letter-spacing: 0.075em !important;
 }
 
 .row {
@@ -592,7 +610,7 @@ section {
 
 /* Header styles slut */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .split-kortene {
         display: flex;
         align-items: center;
