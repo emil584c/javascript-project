@@ -13,6 +13,22 @@
     background-color: #F6F6F6;
 }
 
+body.noscroll {
+    overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
 /* utility classes slut */
 
 * {
@@ -54,21 +70,21 @@ body {
     line-height: 1.42857143;
 }
 
-.h2-black{
+.h2-black {
     color: #161616;
     font-size: 2rem;
     font-family: 'Gotham', sans-serif;
     font-weight: 700;
 }
 
-.h2-brown{
+.h2-brown {
     color: rgb(188, 135, 69);
     font-size: 2rem;
     font-family: 'Gotham', sans-serif;
     font-weight: 400;
 }
 
-.p-black{
+.p-black {
     color: #161616;
     font-family: 'Gotham', sans-serif;
     font-weight: 500;
@@ -76,9 +92,91 @@ body {
     line-height: 0.25;
 }
 
-
-
 /* Fonts slut */
+
+/* Containers & flex */
+
+.container {
+    max-width: 69.375rem;
+    margin: 0 auto;
+}
+
+.container--pyx {
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 64em) {
+    .container--pyx {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.container--py {
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+}
+
+@media (min-width: 64em) {
+    .container--py {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.container--px {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.container--pt {
+    padding-top: 4.375rem;
+}
+
+@media (min-width: 64em) {
+    .container--pt {
+        padding-top: 6rem;
+    }
+}
+
+.container--pr {
+    padding-right: 1.5rem;
+}
+
+.container--pb {
+    padding-bottom: 4.375rem;
+}
+
+@media (min-width: 64em) {
+    .container--pb {
+        padding-bottom: 6rem;
+    }
+}
+
+.container--pl {
+    padding-left: 1.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.flex-jc-c {
+    justify-content: center;
+}
+
+.flex-ai-c {
+    align-items: center;
+}
+
+/* Containers & flex slut */
 
 /* Drawing Paths */
 
@@ -157,6 +255,26 @@ body {
     color: black;
 }
 
+button,
+.button {
+  display: inline-block;
+  padding: 0.875rem 2.1875rem;
+  background: linear-gradient(to right, #0b8dc1, #04abbe);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 0.875rem;
+  transition: opacity 300ms ease-in-out;
+  opacity: 1;
+}
+
+button:hover,
+.button:hover {
+  opacity: 0.75;
+}
+
 /* Buttons slut */
 
 
@@ -173,7 +291,7 @@ body {
     text-align: center;
 }
 
-.split-kortene{
+.split-kortene {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -208,7 +326,7 @@ section {
     background-size: 100%;
 }
 
-.pullup{
+.pullup {
     height: 50vh;
     background-image: url(images/pullup.jpg);
     background-repeat: no-repeat;
@@ -356,3 +474,24 @@ section {
     left: 0;
     background-image: linear-gradient(#0d0d0d, transparent);
 }
+
+.has-fade {
+    visibility: hidden;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 63.9375em) {
+    .hide-for-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 64em) {
+    .hide-for-desktop {
+        display: none;
+    }
+}
+
+/* Media Queries slut */
