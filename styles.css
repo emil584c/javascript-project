@@ -342,6 +342,26 @@ button:hover,
 
 /* Buttons slut */
 
+.footer-icon{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(127, 148, 17);
+    font-size: 25px;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.icon-split{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+}
 
 .split {
     display: flex;
