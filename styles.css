@@ -134,6 +134,24 @@ body {
     margin-bottom: 1.5rem;
 }
 
+h4{
+    font-family: 'NewCaledonia';
+    font-style: italic;
+    font-weight: 500;
+    color: #0d0d0d;
+    font-size: 20px;
+
+}
+
+.footer-text{
+    font-family: 'NewCaledonia';
+    color: grey;
+}
+.footer-bold{
+    font-weight: 700;
+}
+
+
 /* Fonts slut */
 
 /* Containers & flex */
@@ -342,6 +360,36 @@ button:hover,
 .split-sayhello{
     max-width: 1200px;
     margin: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+.footer-link{
+    list-style: inside;
+    text-decoration: underline;
+    color: #26d8ae;
+    line-height: 0.4;
+}
+
+.footer-pattern{
+    width: 1000px;
+    height: 120px;
+    background-image: url(images/footerpattern.JPG);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.test1{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
 }
 
 
@@ -582,3 +630,5 @@ section {
 }
 
 /* Media Queries slut */
+
+
