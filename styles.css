@@ -113,6 +113,27 @@ body {
     line-height: 0.25;
 }
 
+.korttekst1 {
+    font-style: italic;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.korttekst2 {
+    font-family: 'Gotham', sans-serif;
+}
+
+.korttekst3 {
+    font-size: 0.8rem;
+    font-family: 'Gotham', sans-serif;
+    font-style: inherit;
+    transform: scaleY(1.3);
+    color: #ec1681;
+    margin-bottom: 1.5rem;
+}
+
 /* Fonts slut */
 
 /* Containers & flex */
@@ -374,6 +395,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    margin: auto;
 }
 
 .kort2 {
@@ -387,6 +409,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    margin: auto;
 }
 
 /* Hamburger menu styles */
