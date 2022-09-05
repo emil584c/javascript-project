@@ -308,11 +308,17 @@ h4{
 #knap5 {
     border: 2px #F68800 solid;
     color: black;
+    font-family: 'Gotham', sans-serif;
+    font-style: inherit;
+    transform: scaleY(1.2);
 }
 
 #knap6 {
     border: 2px #E21081 solid;
     color: black;
+    font-family: 'Gotham', sans-serif;
+    font-style: inherit;
+    transform: scaleY(1.2);
 }
 
 .button {
@@ -355,6 +361,7 @@ button:hover,
     justify-content: center;
     margin: auto;
     flex-direction: column;
+    max-width: 60%;
 }
 
 .split-sayhello{
