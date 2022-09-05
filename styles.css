@@ -338,7 +338,20 @@ button:hover,
 
 /* Buttons slut */
 
-.footer-icon{
+#footer-icon{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(127, 148, 17);
+    font-size: 25px;
+    color: #F6F6F6;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-icon2{
     height: 45px;
     width: 45px;
     background-color: rgb(127, 148, 17);
@@ -359,6 +372,7 @@ button:hover,
     gap: 5px;
     margin-top: 10px;
 }
+
 
 .split {
     display: flex;
