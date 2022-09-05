@@ -322,22 +322,18 @@ h4{
 }
 
 .button {
-  display: inline-block;
-  padding: 0.875rem 2.1875rem;
-  background: linear-gradient(to right, #0b8dc1, #04abbe);
-  border: 0;
-  border-radius: 50px;
-  cursor: pointer;
-  color: white;
-  font-weight: 400;
-  font-size: 0.875rem;
-  transition: opacity 300ms ease-in-out;
-  opacity: 1;
+    display: inline-block;
+    cursor: pointer;
+    color: #9698a6;
+    font-weight: 400;
+    transition: opacity 300ms ease-in-out;
+    opacity: 1;
+    font-family: 'Gotham_condensedbook', sans-serif;
 }
 
 button:hover,
 .button:hover {
-  opacity: 0.75;
+    color: black;
 }
 
 /* Buttons slut */
@@ -460,6 +456,16 @@ section {
     background-size: 100%;
 }
 
+@media (max-width: 63.9375em) {
+    .forsidebaggrund {
+        height: 70vh;
+        background-image: url(images/dameblå.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
 .pullup {
     height: 50vh;
     background-image: url(images/pullup.jpg);
@@ -521,9 +527,17 @@ section {
 }
 
 .header__logo img {
-    width: 9rem;
-    height: 3rem;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.header__logo {
+    height: auto;
+    width: auto;
+}
+
 
 .header__menu>span {
     display: block;
@@ -547,6 +561,7 @@ section {
     margin-top: 2.5rem;
     padding: 1.625rem;
     border-radius: 5px;
+    font-family: 'Gotham_condensedbook', sans-serif;
 }
 
 .header__hbmenu a {
@@ -561,10 +576,12 @@ section {
     font-size: 0.875rem;
     color: #9698a6;
     transition: color 300ms ease-in-out;
+    font-family: 'Gotham_condensedbook', sans-serif;
 }
 
 .header__links a:not(:last-child) {
     margin-right: 32px;
+    font-family: 'Gotham_condensedbook', sans-serif;
 }
 
 .header__links a::before {
@@ -578,6 +595,7 @@ section {
     background: linear-gradient(to right, #0b8dc1, #04abbe);
     opacity: 0;
     transition: opacity 300ms ease-in-out;
+    font-family: 'Gotham_condensedbook', sans-serif;
 }
 
 .header__links a:hover {
@@ -617,41 +635,45 @@ section {
 
 @keyframes fade-in {
     from {
-      visibility: hidden;
-      opacity: 0;
+        visibility: hidden;
+        opacity: 0;
     }
+
     1% {
-      visibility: visible;
-      opacity: 0;
+        visibility: visible;
+        opacity: 0;
     }
+
     to {
-      visibility: visible;
-      opacity: 1;
+        visibility: visible;
+        opacity: 1;
     }
-  }
-  
-  .fade-in {
+}
+
+.fade-in {
     animation: fade-in 300ms ease-in-out forwards;
-  }
-  
-  @keyframes fade-out {
+}
+
+@keyframes fade-out {
     from {
-      visibility: visible;
-      opacity: 1;
+        visibility: visible;
+        opacity: 1;
     }
+
     99% {
-      visibility: visible;
-      opacity: 0;
+        visibility: visible;
+        opacity: 0;
     }
+
     to {
-      visibility: hidden;
-      opacity: 0;
+        visibility: hidden;
+        opacity: 0;
     }
-  }
-  
-  .fade-out {
+}
+
+.fade-out {
     animation: fade-out 300ms ease-in-out forwards;
-  }
+}
 
 
 /* Media Queries */
@@ -670,4 +692,22 @@ section {
 
 /* Media Queries slut */
 
+<<<<<<< Updated upstream
 
+=======
+/* Dropdown */
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Dropdown slut */
+>>>>>>> Stashed changes
