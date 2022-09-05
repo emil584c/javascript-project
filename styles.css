@@ -361,7 +361,7 @@ button:hover,
     justify-content: center;
     margin: auto;
     flex-direction: column;
-    max-width: 60%;
+    max-width: 75%;
 }
 
 .split-sayhello{
