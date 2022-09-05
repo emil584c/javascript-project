@@ -140,7 +140,7 @@ h4{
     font-weight: 500;
     color: #0d0d0d;
     font-size: 20px;
-
+    margin-bottom: -10px;
 }
 
 .footer-text{
@@ -364,9 +364,7 @@ button:hover,
 
 footer{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 80px;
+    flex-direction: column;
 }
 .footer-link{
     list-style: inside;
@@ -392,6 +390,15 @@ footer{
     background-color: grey;
 }
 
+.add{
+    margin-top: 10px;
+    height: 40px;
+    width: 60px;
+    background-image: url(images/add.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 @media screen and (min-width: 768px) {
     .split-kortene {
@@ -401,7 +408,13 @@ footer{
         gap: 20%;
         flex-direction: row;
     }
+    footer{
+        flex-direction: row;
+        gap: 70px;'
+        justify-content: center;
+    }
 }
+
 
 .center {
     display: flex;
