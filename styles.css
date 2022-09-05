@@ -410,7 +410,7 @@ footer{
     }
     footer{
         flex-direction: row;
-        gap: 70px;'
+        gap: 70px;
         justify-content: center;
     }
 }
