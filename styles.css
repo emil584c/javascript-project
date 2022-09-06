@@ -339,7 +339,7 @@ button:hover,
 
 /* Buttons slut */
 
-<<<<<<< Updated upstream
+
 /* Terning spil */
 .terning-container{
     display: flex;
@@ -368,9 +368,7 @@ button:hover,
 /* Terning spil slut */
 
 #footer-icon{
-=======
-.footer-icon {
->>>>>>> Stashed changes
+
     height: 45px;
     width: 45px;
     background-color: rgb(127, 148, 17);
