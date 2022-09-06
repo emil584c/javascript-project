@@ -62,14 +62,14 @@ body {
 
 /* Fonts */
 
-.say-hello-page{
+.say-hello-page {
     color: #0d0d0d;
     font-size: 2.5rem;
     font-family: 'Gotham', sans-serif;
     font-weight: 700;
 }
 
-.say-hello-page-brown{
+.say-hello-page-brown {
     color: rgb(188, 135, 69);
     font-size: 2.5rem;
     font-family: 'Gotham', sans-serif;
@@ -134,7 +134,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-h4{
+h4 {
     font-family: 'NewCaledonia';
     font-style: italic;
     font-weight: 500;
@@ -143,11 +143,12 @@ h4{
     margin-bottom: -10px;
 }
 
-.footer-text{
+.footer-text {
     font-family: 'NewCaledonia';
     color: grey;
 }
-.footer-bold{
+
+.footer-bold {
     font-weight: 700;
 }
 
@@ -338,6 +339,7 @@ button:hover,
 
 /* Buttons slut */
 
+<<<<<<< Updated upstream
 /* Terning spil */
 .terning-container{
     display: flex;
@@ -366,6 +368,9 @@ button:hover,
 /* Terning spil slut */
 
 #footer-icon{
+=======
+.footer-icon {
+>>>>>>> Stashed changes
     height: 45px;
     width: 45px;
     background-color: rgb(127, 148, 17);
@@ -391,8 +396,8 @@ button:hover,
     align-items: center;
 }
 
-.icon-split{
-    display: flex;  
+.icon-split {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -422,23 +427,24 @@ button:hover,
     max-width: 75%;
 }
 
-.split-sayhello{
+.split-sayhello {
     max-width: 1200px;
     margin: auto;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
 }
-.footer-link{
+
+.footer-link {
     list-style: inside;
     text-decoration: underline;
     color: #26d8ae;
     line-height: 0.4;
 }
 
-.footer-pattern{
+.footer-pattern {
     width: 1000px;
     height: 120px;
     background-image: url(images/footerpattern.JPG);
@@ -449,13 +455,13 @@ footer{
     margin-top: 30px;
 }
 
-.test1{
+.test1 {
     height: 40px;
     width: 40px;
     background-color: grey;
 }
 
-.add{
+.add {
     margin-top: 10px;
     height: 40px;
     width: 60px;
@@ -473,7 +479,8 @@ footer{
         gap: 20%;
         flex-direction: row;
     }
-    footer{
+
+    footer {
         flex-direction: row;
         gap: 70px;
         justify-content: center;
@@ -626,19 +633,6 @@ section {
     font-family: 'Gotham_condensedbook', sans-serif;
 }
 
-.header__links a::before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 5px;
-    left: 0;
-    right: 0;
-    bottom: -30px;
-    background: linear-gradient(to right, #0b8dc1, #04abbe);
-    opacity: 0;
-    transition: opacity 300ms ease-in-out;
-    font-family: 'Gotham_condensedbook', sans-serif;
-}
 
 .header__links a:hover {
     color: #0d0d0d;
@@ -736,16 +730,53 @@ section {
 
 /* Dropdown */
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
+/* Dropdown Button */
+.dropbtn {
+    color: #9698a6;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.dropdown:hover .dropdown-content {
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+    color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
 }
 
 /* Dropdown slut */

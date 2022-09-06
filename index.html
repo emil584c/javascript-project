@@ -27,8 +27,23 @@
           </a>
     
           <div class="header__links hide-for-mobile">
-            <a href="#">MEDLEMSKABER</a><a href="#feature">HVEM ER VI</a><a href="#portfolio">FACALITETER</a><a class="dropdown"
-              href="#contact">HOLDTRÆNING</a><a href="#">PERSONLIG TRÆNING</a>
+            <a href="#">MEDLEMSKABER</a>
+            <a href="#feature">HVEM ER VI</a>
+            <a href="#portfolio">FACALITETER</a>
+
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content hide-for-mobile" id="myDropdown">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                </div> 
+
+            <a class="dropdown" href="#contact">HOLDTRÆNING</a>
+            <a href="#">PERSONLIG TRÆNING</a>
           </div>
     
           <a href="#contact" id="buttonheader" class="button header__cta hide-for-mobile">Join / Login</a>
