@@ -338,6 +338,33 @@ button:hover,
 
 /* Buttons slut */
 
+/* Terning spil */
+.terning-container{
+    display: flex;
+    max-width: 500px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+}
+
+.roll-dice{
+    max-height: 80px;
+    height: 50px;
+}
+
+.dice{
+	width:32px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+    max-height: 40px;
+}
+/* Terning spil slut */
+
 #footer-icon{
     height: 45px;
     width: 45px;
