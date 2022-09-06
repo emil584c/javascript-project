@@ -15,51 +15,51 @@
 
     <header class="header">
         <div class="overlay has-fade"></div>
-
+    
         <nav class="container container--pyx flex flex-jc-sb flex-ai-c">
-            <a href="#" class="header__logo">
-                <img src="images/repeat-logo-black.png" alt="PH Productions">
-            </a>
-            <a id="btnHamburger" href="#" class="header__menu hide-for-desktop">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-
-            <div class="header__links hide-for-mobile">
-                <a href="#">MEDLEMSKABER</a>
-                <a href="#feature">HVEM ER VI</a>
-                <a href="#portfolio">FACALITETER</a>
-
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">HOLDTRÆNING
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content hide-for-mobile" id="myDropdown">
-                        <a href="#" id="nomargin">HOLDTRÆNING</a>
-                        <a href="#" id="nomargin">SMALL GROUP TRAINING</a>
-                        <a href="#" id="nomargin">HUMONGOUS GROUP TRAINING</a>
-                    </div>
-                </div>
-                <a href="#">PERSONLIG TRÆNING</a>
-            </div>
-
-            <a href="#contact" id="buttonheader" class="button header__cta hide-for-mobile">Join / Login</a>
-        </nav>
-
-        <div id="hbmenu" class="header__hbmenu has-fade hide-for-desktop">
+          <a href="#" class="header__logo">
+            <img src="images/repeat-logo-black.png" alt="PH Productions">
+          </a>
+          <a id="btnHamburger" href="#" class="header__menu hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+    
+          <div class="header__links hide-for-mobile">
             <a href="#">MEDLEMSKABER</a>
             <a href="#feature">HVEM ER VI</a>
             <a href="#portfolio">FACALITETER</a>
-            <a href="#contact">HOLDTRÆNING</a>
-            <a href="#">SMALL GROUP TRAINING</a>
-            <a href="#">HUMONGOUS GROUP TRAINING</a>
-            <a href="#">PERSONLIG TRÆNING</a>
-            <br>
-            <a href="#">Join/Login</a>
-        </div>
 
-    </header>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content hide-for-mobile" id="myDropdown">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                </div> 
+
+            <a class="dropdown" href="#contact">HOLDTRÆNING</a>
+            <a href="#">PERSONLIG TRÆNING</a>
+          </div>
+    
+          <a href="#contact" id="buttonheader" class="button header__cta hide-for-mobile">Join / Login</a>
+        </nav>
+    
+        <div id="hbmenu" class="header__hbmenu has-fade hide-for-desktop">
+          <a href="#">MEDLEMSKABER</a>
+          <a href="#feature">HVEM ER VI</a>
+          <a href="#portfolio">FACALITETER</a>
+          <a href="#contact">HOLDTRÆNING</a>
+          <a href="#">PERSONLIG TRÆNING</a>
+          <br>
+          <a href="#">Join/Login</a>
+        </div>
+    
+      </header>
 
     <section class="forsidebaggrund center">
         <div class="splitforside">
@@ -82,18 +82,18 @@
     <section class="background-white">
         <p class="korttekst1">Vi har unikke træningscentre i København og Odense.</p>
         <div class="split-kortene">
-            <div class="kort1">
-                <div class="linjekort"></div>
-                <h2 class="korttekst2">ODENSE</h2>
-                <p class="korttekst3">Ejlskovsgade</p>
-                <button class="knapper" id="knap5">Vælg</button>
+                <div class="kort1">
+                    <div class="linjekort"></div>
+                    <h2 class="korttekst2">ODENSE</h2>
+                    <p class="korttekst3">Ejlskovsgade</p>
+                    <button class="knapper" id="knap5">Vælg</button>
 
-            </div>
-            <div class="kort2">
-                <div class="linjekort"></div>
-                <h2 class="korttekst2">KØBENHAVN</h2>
-                <p class="korttekst3">Nørrebro og Østerbro</p>
-                <button class="knapper" id="knap6">Vælg</button>
+                </div>
+                <div class="kort2">
+                    <div class="linjekort"></div>
+                    <h2 class="korttekst2">KØBENHAVN</h2>
+                    <p class="korttekst3">Nørrebro og Østerbro</p>
+                    <button class="knapper" id="knap6">Vælg</button>
             </div>
         </div>
     </section>
@@ -109,15 +109,14 @@
 
     <section class="billedegalleri">
 
-
+        
 
     </section>
 
     <section class="background-white">
-        <h2>Spar på dit næste abonnement i terningespillet!</h2>
-        <p>Prøv at slå over 10, tre gange, du har kun 10 forsøg!<br> hvis du gør det, ligger der en Repeat rabatkode på
-            den anden side!</p>
-
+        <h2 class="h2-black">Spar på dit næste abonnement i terningespillet!</h2>
+        <p>Prøv at slå over 10, tre gange, du har kun 10 forsøg!<br> hvis du gør det, ligger der en REPEAT rabatkode på den anden side!</p>
+    
         <div class="terning-container">
             <div id="die1" class="dice dice1">0</div>
             <div id="die2" class="dice dice2">0</div>
@@ -131,10 +130,9 @@
         <div id="resultat"></div>
         <button onclick="winner()">har jeg vundet?</button>
         <button id="4sider" onclick="alert(diceRolls)" class="sejknap">alert array</button>
-
+        
     </section>
 
-<<<<<<< Updated upstream
         <section class="animationer"> 
             <div class="split">
                 <div class="rebels">
@@ -165,6 +163,8 @@
                             });
                         </script>
                     </div>
+                    <div></div>
+
                     <h2 class="h2-black">RE<span class="h2-brown">BELS</span></h2>
                     <div class="linje-path"></div>
                     <p class="p-black">WHEN FITNESS AND PASSION JOIN FORCES</p>
@@ -186,43 +186,8 @@
                     <p class="p-black">EXERCISE BLENDED PERFECTLY WITH PLEASURE</p>
                     <div class="linje-path"></div>
                 </div>
-=======
-    <section class="animationer">
-        <div class="split">
-            <div class="rebels">
-                <div>Indset "drawing path"</div>
-                <h2 class="h2-black">RE<span class="h2-brown">BELS</span></h2>
-                <div class="linje-path"></div>
-                <p class="p-black">WHEN FITNESS AND PASSION JOIN FORCES</p>
-                <div class="linje-path"></div>
             </div>
-            <div class="reborn">
-                <div>Indset "drawing path"</div>
-                <h2 class="h2-black">RE<span class="h2-brown">BORN</span></h2>
-                <div class="linje-path"></div>
-                <p class="p-black">METROPOLITAN & URBAN ENVIRONMENT</p>
-                <p class="p-black">OPEN 05:00-24:00</p>
-                <p class="p-black">STAFF 08:00-20:00 (WEEKEND 09:00-16:00)</p>
-                <div class="linje-path"></div>
->>>>>>> Stashed changes
-            </div>
-            <div class="reinvent">
-                <div>Indset "drawing path"</div>
-                <h2 class="h2-black">RE<span class="h2-brown">INVENT</span></h2>
-                <div class="linje-path"></div>
-                <p class="p-black">EXERCISE BLENDED PERFECTLY WITH PLEASURE</p>
-                <div class="linje-path"></div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="animationer">
-        <div class="split">
-
-        </div>
-    </section>
+        </section>
 
     <section class="pullup">
         <button class="knapper" id="knap1">JOIN THE CLUB</button>
@@ -238,29 +203,18 @@
         <div class="footer-punkter">
             <h4>Contact</h4>
             <p class="footer-text">If you have any questions<br><a class="footer-link" href="">Get in touch</a></p>
-            <p class="footer-text">Interested in working for REPEAT?<br><a class="footer-link" href="">Click to
-                    apply</a></p>
+            <p class="footer-text">Interested in working for REPEAT?<br><a class="footer-link" href="">Click to apply</a></p>
         </div>
         <div class="footer-punkter">
             <h4>Opening hours</h4>
-            <p class="footer-text"><span class="footer-bold">Staff hours</span><br>Monday to Friday 08:00 - 20:00
-                <br>Weekends 09:00 - 16:00 <br><span class="footer-bold">Opening hours</span><br>All week 05:00 - 24:00
-            </p>
+            <p class="footer-text"><span class="footer-bold">Staff hours</span><br>Monday to Friday 08:00 - 20:00 <br>Weekends 09:00 - 16:00 <br><span class="footer-bold">Opening hours</span><br>All week 05:00 - 24:00</p>
         </div>
         <div class="footer-punkter">
             <h4>More</h4>
-            <a href="">
-                <p class="footer-text footer-link">House Rules</p>
-            </a>
-            <a href="">
-                <p class="footer-text footer-link">Datapolitik</p>
-            </a>
-            <a href="">
-                <p class="footer-text footer-link">Medlemsbetingelser pr.</p>
-            </a>
-            <a href="">
-                <p class="footer-text footer-link">18/8/21</p>
-            </a>
+            <a href=""><p class="footer-text footer-link">House Rules</p></a>
+            <a href=""><p class="footer-text footer-link">Datapolitik</p></a>
+            <a href=""><p class="footer-text footer-link">Medlemsbetingelser pr.</p></a>
+            <a href=""><p class="footer-text footer-link">18/8/21</p></a>
         </div>
         <div class="footer-punkter">
             <h4>Collabs</h4>

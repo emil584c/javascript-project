@@ -23,7 +23,6 @@ function rollDice(){
 }
 
 
-
 // function der printer arrayet
 function showResults(){
     for (var i = 0; i < 5; i++){
@@ -64,3 +63,4 @@ function clickAmount(){
         <button onclick="rollDice()">Roll dice</button>
         <h2 id="status"></h2>
     </div> */}
+
