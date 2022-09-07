@@ -113,6 +113,14 @@ body {
     line-height: 0.25;
 }
 
+.terning-black {
+    color: #161616;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1;
+}
+
 .korttekst1 {
     font-style: italic;
     font-size: 1.4rem;
@@ -370,18 +378,27 @@ color:#FFFFFF
 
 
 /* Terning spil */
+.terning-section{
+    padding-left: 50px;
+}
+
 .terning-container{
-    display: flex;
+    display: grid;
     max-width: 500px;
     height: 200px;
     justify-content: center;
     align-items: center;
     border: 1px black solid;
+
+    grid-template-areas: 
+    "A B C"
+    "T T T";
 }
 
 .roll-dice{
     max-height: 80px;
     height: 50px;
+    grid-area: C;
 }
 
 .dice{
@@ -393,6 +410,20 @@ color:#FFFFFF
 	text-align:center;
 	margin:5px;
     max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status{
+    grid-area: T;
+}
+
+#die1{
+    grid-area: A;
+}
+#die2{
+    grid-area: B;
 }
 /* Terning spil slut */
 

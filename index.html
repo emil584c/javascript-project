@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
-    <script src="countdown.js" defer></script>
+    <script src="javascript/countdown.js" defer></script>
 </head>
 
 <body onload=cdtd()>
@@ -142,23 +142,23 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
         <div class="gallerycontainer"
         <!-- Slider main container -->
-<div class="swiper">
+        <div class="swiper">
 
-  <div class="swiper-wrapper">
-  
-    <div class="swiper-slide"><img src="images/Malmo.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="images/img_5017_optimized.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="images/Frie_vaegte.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="images/Styrkemaskiner_2.jpg" alt=""></div>
-  </div>
+        <div class="swiper-wrapper">
+        
+            <div class="swiper-slide"><img src="images/Malmo.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/img_5017_optimized.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/Frie_vaegte.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/Styrkemaskiner_2.jpg" alt=""></div>
+        </div>
 
-  <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>
 
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
-  <div class="swiper-scrollbar"></div>
-</div> 
+        <div class="swiper-scrollbar"></div>
+        </div> 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
@@ -217,16 +217,20 @@
         </div>
     </section>
 
-    <section class="background-grey">
+    <section class="background-grey terning-section">
+
+        <div class="brown-linje"></div>
         <h2 class="h2-black">Spar på dit næste abonnement i terningespillet!</h2>
-        <p>Prøv at slå over 10, tre gange, du har kun 10 forsøg!<br> hvis du gør det, ligger der en REPEAT rabatkode på
+        <p class="terning-black">Prøv at slå 10 eller over, tre gange, du har kun 10 forsøg!<br> hvis du gør det, ligger der en REPEAT rabatkode på
             den anden side!</p>
 
         <div class="terning-container">
             <div id="die1" class="dice dice1">0</div>
             <div id="die2" class="dice dice2">0</div>
-            <button class="roll-dice" onclick="rollDice(); clickAmount()">KAST TERNINGERNE</button>
-            <h2 id="status"></h2>
+            <button class="roll-dice p-black" id="throw" onclick="rollDice(); clickAmount()">KAST TERNINGERNE</button>
+            <div>
+                <h2 id="status" class="p-black"></h2>
+            </div>
         </div>
         <div id="sidsteslag"></div>
         <h1 id="dingding"></h1>

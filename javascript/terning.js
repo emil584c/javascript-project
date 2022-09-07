@@ -20,6 +20,8 @@ function rollDice(){
         document.getElementById("dingding").innerHTML = " ";
     }else
         document.getElementById("dingding").innerHTML = "Prøv igen!";
+
+    document.getElementById("throw").innerHTML="REPEAT"
 }
 
 
@@ -44,7 +46,7 @@ function winner(){
 var clickCount = 0;
 function clickAmount(){
     clickCount ++;
-    if (clickCount > 30){
+    if (clickCount > 10){
         alert("du har sgu brugt alle dine slag!")
     };
 }

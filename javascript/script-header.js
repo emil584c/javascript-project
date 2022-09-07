@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = function() {
     const btnHamburger = document.querySelector('#btnHamburger');
     const body = document.querySelector('body');
     const header = document.querySelector('.header');
@@ -70,4 +70,6 @@ window.onclick = function(event) {
     }
   }
 }
+
+
 
