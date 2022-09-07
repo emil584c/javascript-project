@@ -34,7 +34,7 @@ function cdtd() {
         }
 }
 
-output.innerHTML+="<h2>Du kan finde super gode tilbud på:</h2>"
+output.innerHTML+="<h3>Du kan finde super gode tilbud på:</h3>"
 for (var i = 0; i < tilbud.length; i++) {
     output.innerHTML+= "<br>" + tilbud [i];
 }

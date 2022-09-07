@@ -862,15 +862,27 @@ section {
     height: 2rem;
 }
 
+.countdownsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1.2rem;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 700;
+}
+
 .countdowncontainer {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    border: solid 2px black;
+    border: double 5px black;
     justify-content: center;
-    width: 30rem;
-    padding: 1rem;
-}
+    width: 38rem;
+    padding: 1.8rem;
+    margin: auto;
+
 
 .dagetilbage {
     display: flex;
