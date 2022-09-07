@@ -3,7 +3,7 @@ console.log("JavaScript is running...");
 
 var output = document.getElementById("out");
 
-var tilbud = ["- Proteinpulver", "- Abonnementer", "- Hængelåse"]
+var tilbud = ["Proteinpulver", "Abonnementer", "Hængelåse"]
 
 function cdtd() {
     var tilbudexpire = new Date("October 01, 2022 00:00:00");
@@ -11,7 +11,7 @@ function cdtd() {
     var timeDiff = tilbudexpire.getTime() - now.getTime();
     if (timeDiff <= 0) {
         clearTimeout(timer);
-    document.write("Tilbuddet er slut!");
+    document.getElementById("out").innerHTML = "Tilbuddet er slut!";
     }
 
     var seconds = Math.floor(timeDiff / 1000);
@@ -28,10 +28,6 @@ function cdtd() {
     document.getElementById("secsBox").innerHTML = seconds;
 
     var timer = setTimeout('cdtd()',1000);
-    
-    if (timeDiff > 0) {
-        output.innerHTML(tilbudsvar [0]);
-        }
 }
 
 output.innerHTML+="<h3>Du kan finde super gode tilbud på:</h3>"
