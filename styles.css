@@ -257,6 +257,7 @@ h4 {
 
 /* Drawing Paths slut */
 
+
 .rebels {
     display: flex;
     text-align: center;
@@ -280,6 +281,7 @@ h4 {
     justify-content: center;
     flex-direction: column;
 }
+
 
 /* Buttons */
 .knapper {
@@ -535,6 +537,15 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 20%;
+        flex-direction: row;
+    }
+
+    .split {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
         flex-direction: row;
     }
 
