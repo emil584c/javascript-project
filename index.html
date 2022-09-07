@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
+    <script src="countdown.js" defer></script>
 </head>
 
-<body>
+<body onload=cdtd()>
 
     <header class="header">
         <div class="overlay has-fade"></div>
@@ -77,6 +78,33 @@
         <h2>Maltes mega fede countdown indsættes her</h2>
         <p>COUNTDOWN</p>
         <p>Skynd dig at få tilbuddet inden det udløber!</p>
+
+        <div class="countdowncontainer">
+            <div class="dagetilbage">
+                <h2>Dage</h2>
+                    <div id="daysBox"></div>
+            </div>
+        
+            <div class="timertilbage">
+                <h2>Timer</h2>
+                    <div id="hoursBox"></div>
+            </div>
+        
+            <div class="minuttertilbage">
+                <h2>Minutter</h2>
+                    <div id="minsBox"></div>
+            </div>
+            
+            <div class="sekundertilbage">
+                <h2>Sekunder</h2>
+                    <div id="secsBox"></div>
+            </div>
+        </div>
+        
+        <div id="out"></div>
+        
+        <button class="countdownknap" id="cdknap1" onclick="m-tilbud">Se alle tilbud</button>
+
     </section>
 
     <section class="background-white">
