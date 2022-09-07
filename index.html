@@ -227,25 +227,26 @@
 
     <section class="background-grey terning-section">
 
-        <div class="brown-linje"></div>
+        <div class="brown-linje" id="terning-linje"></div>
         <h2 class="h2-black">Spar på dit næste abonnement i terningespillet!</h2>
         <p class="terning-black">Prøv at slå 10 eller over, tre gange, du har kun 10 forsøg!<br> hvis du gør det, ligger der en REPEAT rabatkode på
             den anden side!</p>
 
         <div class="terning-container">
-            <div id="die1" class="dice dice1">0</div>
-            <div id="die2" class="dice dice2">0</div>
-            <button class="roll-dice p-black" id="throw" onclick="rollDice(); clickAmount()">KAST TERNINGERNE</button>
-            <div>
+            <div class="terning-split">
+                <div id="die1" class="dice dice1">0</div>
+                <div id="die2" class="dice dice2">0</div>
+                <button class="roll-dice p-black" id="throw" onclick="rollDice(); clickAmount()">KAST TERNINGERNE</button>
+            </div>
+            <div class="terning-split">
                 <h2 id="status" class="p-black"></h2>
             </div>
         </div>
         <div id="sidsteslag"></div>
         <h1 id="dingding"></h1>
-        <button onclick="showResults()">print resultater</button>
+        <button id="resultater" class="p-black" onclick=showResults()>Se alle dine kast</button>
+        <p id="allthrows"></p>
         <div id="resultat"></div>
-        <button onclick="winner()">har jeg vundet?</button>
-        <button id="4sider" onclick="alert(diceRolls)" class="sejknap">alert array</button>
 
     </section>
 

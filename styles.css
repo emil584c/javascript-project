@@ -380,20 +380,58 @@ color:#FFFFFF
 
 
 /* Terning spil */
+#terning-linje{
+    margin-left: 463px;
+}
+
+#allthrows{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gotham";
+    font-family: 500;
+    font-size: 20px;
+}
+
+#resultater{
+    height: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#resultater:hover{
+    background-color: #47beaed6;
+    transition: 0.3s;
+}
+
+#status{
+    font-size: 30px;
+    grid-area: T;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+}
+
 .terning-section{
-    padding-left: 50px;
+    margin: auto;
+    text-align: center;
+    
 }
 
 .terning-container{
-    display: grid;
-    max-width: 500px;
+    margin: auto;
+    max-width: 800px;
     height: 200px;
     justify-content: center;
     align-items: center;
-    border: 1px black solid;
-
+    border: double 5px black;
+    display: grid;
     grid-template-areas: 
-    "A B C"
+    ". A B C ."
     "T T T";
 }
 
@@ -401,6 +439,12 @@ color:#FFFFFF
     max-height: 80px;
     height: 50px;
     grid-area: C;
+    border:#999 1px solid;
+}
+
+.roll-dice:hover{
+    background-color: #47beaed6;
+    transition: 0.3s;
 }
 
 .dice{
@@ -411,14 +455,11 @@ color:#FFFFFF
 	font-size:24px;
 	text-align:center;
 	margin:5px;
-    max-height: 40px;
+    height: 50px;
+    max-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.status{
-    grid-area: T;
 }
 
 #die1{
@@ -427,6 +468,14 @@ color:#FFFFFF
 #die2{
     grid-area: B;
 }
+
+.terning-split{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Terning spil slut */
 
 #footer-icon{
