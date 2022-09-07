@@ -29,7 +29,7 @@ function rollDice(){
     // Her tæller jeg hvor mange slag der er blevet taget og giver en udmeldelse hvis alle er blevet brugt og om man har vundet
     clickCount ++;
     if (clickCount == 10 && diceRolls.length < 3){
-        document.getElementById("status").innerHTML="du har brugt alle dine slag og har desværre ikke vundet, men prøv igen i morgen!";
+        document.getElementById("status").innerHTML="Du har brugt alle dine slag og har desværre ikke vundet, men prøv igen i morgen!";
         document.getElementById("throw").style.display = "none";
         die1.style.display = "none";
         die2.style.display = "none";
