@@ -1,4 +1,7 @@
-window.onload = function() {
+window.addEventListener("load", lol);
+
+
+function lol() {
     const btnHamburger = document.querySelector('#btnHamburger');
     const body = document.querySelector('body');
     const header = document.querySelector('.header');
@@ -8,7 +11,6 @@ window.onload = function() {
 
     btnHamburger.addEventListener('click', function () {
         console.log('click hamburger');
-
 
         if (header.classList.contains('open')) { // Close Hamburger menu
             body.classList.remove('noscroll');
@@ -58,7 +60,7 @@ function myFunction() {
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
+onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
@@ -71,5 +73,8 @@ window.onclick = function(event) {
   }
 }
 
+
+
+// ----------------------------------------------------------------------
 
 
