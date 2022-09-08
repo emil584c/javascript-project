@@ -914,6 +914,11 @@ section {
   font-weight: 600;
 }
 
+.countdownknap:hover {
+  background-color: #47beaed6;
+  transition: 0.3s;
+}
+
 .countdownsection {
   display: flex;
   flex-direction: column;
