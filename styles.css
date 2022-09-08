@@ -573,30 +573,7 @@ footer {
   background-size: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .split-kortene {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20%;
-    flex-direction: row;
-  }
 
-  .split {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    flex-direction: row;
-  }
-
-  footer {
-    flex-direction: row;
-    gap: 70px;
-    justify-content: center;
-  }
-}
 
 .center {
   display: flex;
@@ -932,11 +909,10 @@ section {
 
 .countdowncontainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2rem;
   border: double 5px black;
   justify-content: center;
-  width: 38rem;
   padding: 1.8rem;
   margin: auto;
   margin-top: 1rem;
@@ -1004,3 +980,37 @@ div#memory-board > div {
   margin: 20px;
 }
 /* Memory game slut */
+
+
+
+@media screen and (min-width: 768px) {
+  
+  .countdowncontainer{
+    flex-direction: row;
+    
+  }
+  
+  .split-kortene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    flex-direction: row;
+  }
+
+  .split {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: row;
+  }
+
+  footer {
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+  }
+
+}
