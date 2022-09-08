@@ -1,258 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Repeat-Gutterne-Style</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre Baskerville"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="javascript/billedgallery.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/1e8b3aab75.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="javascript/countdown.js" defer></script>
     <script src="javascript/memory-board.js" defer></script>
-</head>
+  </head>
 
-<body onload=cdtd();>
-
+  <body onload="cdtd();">
     <header class="header">
-        <div class="overlay has-fade"></div>
+      <div class="overlay has-fade"></div>
 
-        <nav class="container container--pyx flex flex-jc-sb flex-ai-c">
-            <a href="#" class="header__logo">
-                <img src="images/repeat-logo-black.png" alt="PH Productions">
-            </a>
-            <a id="btnHamburger" href="#" class="header__menu hide-for-desktop">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
+      <nav class="container container--pyx flex flex-jc-sb flex-ai-c">
+        <a href="#" class="header__logo">
+          <img src="images/repeat-logo-black.png" alt="PH Productions" />
+        </a>
+        <a id="btnHamburger" href="#" class="header__menu hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
 
-            <div class="header__links hide-for-mobile">
-                <a href="#">MEDLEMSKABER</a>
-                <a href="#feature">HVEM ER VI</a>
-                <a href="#portfolio">FACALITETER</a>
+        <div class="header__links hide-for-mobile">
+          <a href="#">MEDLEMSKABER</a>
+          <a href="#feature">HVEM ER VI</a>
+          <a href="#portfolio">FACALITETER</a>
 
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">HOLDTRÆNING
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content hide-for-mobile" id="myDropdown">
-                        <a href="#" id="nomargin">HOLDTRÆNING</a>
-                        <a href="#" id="nomargin">SMALL GROUP TRAINING</a>
-                        <a href="#" id="nomargin">HUMONGOUS GROUP TRAINING</a>
-                    </div>
-                </div>
-                <a href="#">PERSONLIG TRÆNING</a>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">
+              HOLDTRÆNING
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content hide-for-mobile" id="myDropdown">
+              <a href="#" id="nomargin">HOLDTRÆNING</a>
+              <a href="#" id="nomargin">SMALL GROUP TRAINING</a>
+              <a href="#" id="nomargin">HUMONGOUS GROUP TRAINING</a>
             </div>
-
-            <a href="#contact" id="buttonheader" class="button header__cta hide-for-mobile">Join / Login</a>
-        </nav>
-
-        <div id="hbmenu" class="header__hbmenu has-fade hide-for-desktop">
-            <a href="#">MEDLEMSKABER</a>
-            <a href="#feature">HVEM ER VI</a>
-            <a href="#portfolio">FACALITETER</a>
-            <a href="#contact">HOLDTRÆNING</a>
-            <a href="#">SMALL GROUP TRAINING</a>
-            <a href="#">HUMONGOUS GROUP TRAINING</a>
-            <a href="#">PERSONLIG TRÆNING</a>
-            <br>
-            <a href="#">Join/Login</a>
+          </div>
+          <a href="#">PERSONLIG TRÆNING</a>
         </div>
 
+        <a
+          href="#contact"
+          id="buttonheader"
+          class="button header__cta hide-for-mobile"
+          >Join / Login</a
+        >
+      </nav>
+
+      <div id="hbmenu" class="header__hbmenu has-fade hide-for-desktop">
+        <a href="#">MEDLEMSKABER</a>
+        <a href="#feature">HVEM ER VI</a>
+        <a href="#portfolio">FACALITETER</a>
+        <a href="#contact">HOLDTRÆNING</a>
+        <a href="#">SMALL GROUP TRAINING</a>
+        <a href="#">HUMONGOUS GROUP TRAINING</a>
+        <a href="#">PERSONLIG TRÆNING</a>
+        <br />
+        <a href="#">Join/Login</a>
+      </div>
     </header>
 
     <section class="forsidebaggrund center">
-        <div class="splitforside">
-            <h1 class="h1-forside">TRÆN 2 FOR 1 PRIS</h1>
-            <div class="linje"></div>
-            <p class="p-forside">MEDLEMSKABET KOSTER 199KR. PR./PERSON<br />
-                DER ER 6 MÅNEDERS BINDING PÅ MEDLEMSKABET.<br />
-                MEDLEMSKABET KAN KUN OPRETTES I CENTRENE OG IKKE ONLINE.<br />
-                OPRETTELSE KOSTER 99KR. PR./PERSON</p>
-            <button class="knapper" id="knap1">LÆS MERE</button>
-        </div>
+      <div class="splitforside">
+        <h1 class="h1-forside">TRÆN 2 FOR 1 PRIS</h1>
+        <div class="linje"></div>
+        <p class="p-forside">
+          MEDLEMSKABET KOSTER 199KR. PR./PERSON<br />
+          DER ER 6 MÅNEDERS BINDING PÅ MEDLEMSKABET.<br />
+          MEDLEMSKABET KAN KUN OPRETTES I CENTRENE OG IKKE ONLINE.<br />
+          OPRETTELSE KOSTER 99KR. PR./PERSON
+        </p>
+        <button class="knapper" id="knap1">LÆS MERE</button>
+      </div>
     </section>
 
     <section class="background-grey countdownsection">
-        <h2>Månedstilbud</h2>
-        <div class="linjekort"></div>
-        <div class="countdowncontainer">
-            <div class="dagetilbage">
-                <h2>Dage</h2>
-                    <div id="daysBox"></div>
-            </div>
-        
-            <div class="timertilbage">
-                <h2>Timer</h2>
-                    <div id="hoursBox"></div>
-            </div>
-        
-            <div class="minuttertilbage">
-                <h2>Minutter</h2>
-                    <div id="minsBox"></div>
-            </div>
-            
-            <div class="sekundertilbage">
-                <h2>Sekunder</h2>
-                    <div id="secsBox"></div>
-            </div>
+      <h2>Månedstilbud</h2>
+      <div class="linjekort"></div>
+      <div class="countdowncontainer">
+        <div class="dagetilbage">
+          <h2>Dage</h2>
+          <div id="daysBox"></div>
         </div>
-        
-        <div class="outstyle" id="out"></div>
-        
-        <button class="countdownknap" id="cdknap1" onclick="m-tilbud">Se alle tilbud</button>
 
+        <div class="timertilbage">
+          <h2>Timer</h2>
+          <div id="hoursBox"></div>
+        </div>
+
+        <div class="minuttertilbage">
+          <h2>Minutter</h2>
+          <div id="minsBox"></div>
+        </div>
+
+        <div class="sekundertilbage">
+          <h2>Sekunder</h2>
+          <div id="secsBox"></div>
+        </div>
+      </div>
+
+      <div class="outstyle" id="out"></div>
+
+      <button class="countdownknap" id="cdknap1" onclick="m-tilbud">
+        Se alle tilbud
+      </button>
     </section>
 
     <section class="background-white">
-        <p class="korttekst1">Vi har unikke træningscentre i København og Odense.</p>
-        <div class="split-kortene">
-            <div class="kort1">
-                <div class="linjekort"></div>
-                <h2 class="korttekst2">ODENSE</h2>
-                <p class="korttekst3">Ejlskovsgade</p>
-                <button class="knapper" id="knap5">Vælg</button>
-
-            </div>
-            <div class="kort2">
-                <div class="linjekort"></div>
-                <h2 class="korttekst2">KØBENHAVN</h2>
-                <p class="korttekst3">Nørrebro og Østerbro</p>
-                <button class="knapper" id="knap6">Vælg</button>
-            </div>
+      <p class="korttekst1">
+        Vi har unikke træningscentre i København og Odense.
+      </p>
+      <div class="split-kortene">
+        <div class="kort1">
+          <div class="linjekort"></div>
+          <h2 class="korttekst2">ODENSE</h2>
+          <p class="korttekst3">Ejlskovsgade</p>
+          <button class="knapper" id="knap5">Vælg</button>
         </div>
+        <div class="kort2">
+          <div class="linjekort"></div>
+          <h2 class="korttekst2">KØBENHAVN</h2>
+          <p class="korttekst3">Nørrebro og Østerbro</p>
+          <button class="knapper" id="knap6">Vælg</button>
+        </div>
+      </div>
     </section>
 
     <section class="background-grey test">
-        <div class="split-sayhello">
-            <div class="brown-linje"></div>
-            <h2 class="say-hello-page">SAY HELLO TO REPEAT<br />
-                A NEW BREED OF FITNESS<br />
-                MORE THAN <span class="say-hello-page-brown">PERCENTAGE AND PROTEINSHAKES</span></h2>
-        </div>
+      <div class="split-sayhello">
+        <div class="brown-linje"></div>
+        <h2 class="say-hello-page">
+          SAY HELLO TO REPEAT<br />
+          A NEW BREED OF FITNESS<br />
+          MORE THAN
+          <span class="say-hello-page-brown">PERCENTAGE AND PROTEINSHAKES</span>
+        </h2>
+      </div>
     </section>
 
     <section class="billedegalleri">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-        <div class="gallerycontainer"
-        <!-- Slider main container -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+      <div class="gallerycontainer" <!-- Slider main container -->
         <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/Malmo.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/img_5017_optimized.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Frie_vaegte.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="images/Styrkemaskiner_2.jpg" alt="" />
+            </div>
+          </div>
 
-        <div class="swiper-wrapper">
-        
-            <div class="swiper-slide"><img src="images/Malmo.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/img_5017_optimized.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/Frie_vaegte.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/Styrkemaskiner_2.jpg" alt=""></div>
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <div class="swiper-scrollbar"></div>
         </div>
-
-        <div class="swiper-pagination"></div>
-
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <div class="swiper-scrollbar"></div>
-        </div> 
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <script>
-        const swiper = new Swiper('.swiper', {
-            autoplay: {
-            delay:3000,        
-            disableOnInteraction: true
-            },
-
-  loop: true,
-          
-
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  },
-);
-    </script>
+      </div>
     </section>
 
-<section class="background-grey">
-    <div class="vendespil h2-black" >VENDESPIL</div>
-    <div class="h3-vendespil p-black">Husk de rigtige smagsvarianter og få 10% på Bodylab</div>
-    <div id="memory-board"></div>
-</section>
-
-
-
-
+    <section class="background-grey">
+      <div class="vendespil h2-black">VENDESPIL</div>
+      <div class="h3-vendespil p-black">
+        Husk de rigtige smagsvarianter og få 10% på Bodylab
+      </div>
+      <div id="memory-board"></div>
+    </section>
 
     <section class="animationer">
-        <div class="split">
-            <div class="rebels">
-                <div><img src="images/rebels.PNG" alt="rebels"></div>
-                <h2 class="h2-black">RE<span class="h2-brown">BELS</span></h2>
-                <div class="linje-path"></div>
-                <p class="p-black">WHEN FITNESS AND PASSION JOIN FORCES</p>
-                <div class="linje-path"></div>
-            </div>
-            <div class="reborn">
-                <div><img src="images/reborn.PNG" alt="reborn"></div>
-                <h2 class="h2-black">RE<span class="h2-brown">BORN</span></h2>
-                <div class="linje-path"></div>
-                <p class="p-black">METROPOLITAN & URBAN ENVIRONMENT</p>
-                <p class="p-black">OPEN 05:00-24:00</p>
-                <p class="p-black">STAFF 08:00-20:00 (WEEKEND 09:00-16:00)</p>
-                <div class="linje-path"></div>
-            </div>
-            <div class="reinvent">
-                <div><img src="images/reinvent.PNG" alt=""></div>
-                <h2 class="h2-black">RE<span class="h2-brown">INVENT</span></h2>
-                <div class="linje-path"></div>
-                <p class="p-black">EXERCISE BLENDED PERFECTLY WITH PLEASURE</p>
-                <div class="linje-path"></div>
-            </div>
+      <div class="split">
+        <div class="rebels">
+          <div><img src="images/rebels.PNG" alt="rebels" /></div>
+          <h2 class="h2-black">RE<span class="h2-brown">BELS</span></h2>
+          <div class="linje-path"></div>
+          <p class="p-black">WHEN FITNESS AND PASSION JOIN FORCES</p>
+          <div class="linje-path"></div>
         </div>
+        <div class="reborn">
+          <div><img src="images/reborn.PNG" alt="reborn" /></div>
+          <h2 class="h2-black">RE<span class="h2-brown">BORN</span></h2>
+          <div class="linje-path"></div>
+          <p class="p-black">METROPOLITAN & URBAN ENVIRONMENT</p>
+          <p class="p-black">OPEN 05:00-24:00</p>
+          <p class="p-black">STAFF 08:00-20:00 (WEEKEND 09:00-16:00)</p>
+          <div class="linje-path"></div>
+        </div>
+        <div class="reinvent">
+          <div><img src="images/reinvent.PNG" alt="" /></div>
+          <h2 class="h2-black">RE<span class="h2-brown">INVENT</span></h2>
+          <div class="linje-path"></div>
+          <p class="p-black">EXERCISE BLENDED PERFECTLY WITH PLEASURE</p>
+          <div class="linje-path"></div>
+        </div>
+      </div>
     </section>
 
     <section class="background-grey terning-section">
+      <div class="brown-linje" id="terning-linje"></div>
+      <h2 class="h2-black">Spar på dit næste abonnement i terningespillet!</h2>
+      <p class="terning-black">
+        Prøv at slå 10 eller over, tre gange, du har kun 10 forsøg!<br />
+        hvis du gør det, ligger der en REPEAT rabatkode på den anden side!
+      </p>
 
-        <div class="brown-linje" id="terning-linje"></div>
-        <h2 class="h2-black">Spar på dit næste abonnement i terningespillet!</h2>
-        <p class="terning-black">Prøv at slå 10 eller over, tre gange, du har kun 10 forsøg!<br> hvis du gør det, ligger der en REPEAT rabatkode på
-            den anden side!</p>
-
-        <div class="terning-container">
-            <div class="terning-split">
-                <div id="die1" class="dice dice1">0</div>
-                <div id="die2" class="dice dice2">0</div>
-                <button class="roll-dice p-black" id="throw" onclick="rollDice(); clickAmount()">KAST TERNINGERNE</button>
-            </div>
-            <div class="terning-split">
-                <h2 id="status" class="p-black"></h2>
-            </div>
+      <div class="terning-container">
+        <div class="terning-split">
+          <div id="die1" class="dice dice1">0</div>
+          <div id="die2" class="dice dice2">0</div>
+          <button
+            class="roll-dice p-black"
+            id="throw"
+            onclick="rollDice(); clickAmount()"
+          >
+            KAST TERNINGERNE
+          </button>
         </div>
-        <div id="sidsteslag"></div>
-        <h1 id="dingding"></h1>
-        <button id="resultater" class="p-black" onclick=showResults()>Se alle dine kast</button>
-        <p id="allthrows"></p>
-        <div id="resultat"></div>
-
+        <div class="terning-split">
+          <h2 id="status" class="p-black"></h2>
+        </div>
+      </div>
+      <div id="sidsteslag"></div>
+      <h1 id="dingding"></h1>
+      <button id="resultater" class="p-black" onclick="showResults()">
+        Se alle dine kast
+      </button>
+      <p id="allthrows"></p>
+      <div id="resultat"></div>
     </section>
 
     <section class="pullup">
-        <button class="knapper" id="knap1">JOIN THE CLUB</button>
-        <div class="baggrundsbillede"></div>
+      <button class="knapper" id="knap1">JOIN THE CLUB</button>
+      <div class="baggrundsbillede"></div>
     </section>
 
     <script src="javascript/script-header.js" defer=""></script>
@@ -261,46 +266,55 @@
     <div class="footer-pattern"></div>
 
     <footer class="background-white">
-        <div class="footer-punkter">
-            <h4>Contact</h4>
-            <p class="footer-text">If you have any questions<br><a class="footer-link" href="">Get in touch</a></p>
-            <p class="footer-text">Interested in working for REPEAT?<br><a class="footer-link" href="">Click to
-                    apply</a></p>
+      <div class="footer-punkter">
+        <h4>Contact</h4>
+        <p class="footer-text">
+          If you have any questions<br /><a class="footer-link" href=""
+            >Get in touch</a
+          >
+        </p>
+        <p class="footer-text">
+          Interested in working for REPEAT?<br /><a class="footer-link" href=""
+            >Click to apply</a
+          >
+        </p>
+      </div>
+      <div class="footer-punkter">
+        <h4>Opening hours</h4>
+        <p class="footer-text">
+          <span class="footer-bold">Staff hours</span><br />Monday to Friday
+          08:00 - 20:00 <br />Weekends 09:00 - 16:00 <br /><span
+            class="footer-bold"
+            >Opening hours</span
+          ><br />All week 05:00 - 24:00
+        </p>
+      </div>
+      <div class="footer-punkter">
+        <h4>More</h4>
+        <a href="">
+          <p class="footer-text footer-link">House Rules</p>
+        </a>
+        <a href="">
+          <p class="footer-text footer-link">Datapolitik</p>
+        </a>
+        <a href="">
+          <p class="footer-text footer-link">Medlemsbetingelser pr.</p>
+        </a>
+        <a href="">
+          <p class="footer-text footer-link">18/8/21</p>
+        </a>
+      </div>
+      <div class="footer-punkter">
+        <h4>Collabs</h4>
+        <div class="add"></div>
+      </div>
+      <div class="footer-punkter">
+        <h4>Follow</h4>
+        <div class="icon-split">
+          <i class="fa-brands fa-facebook-f" id="footer-icon"></i>
+          <i class="fa-brands fa-instagram" id="footer-icon2"></i>
         </div>
-        <div class="footer-punkter">
-            <h4>Opening hours</h4>
-            <p class="footer-text"><span class="footer-bold">Staff hours</span><br>Monday to Friday 08:00 - 20:00
-                <br>Weekends 09:00 - 16:00 <br><span class="footer-bold">Opening hours</span><br>All week 05:00 - 24:00
-            </p>
-        </div>
-        <div class="footer-punkter">
-            <h4>More</h4>
-            <a href="">
-                <p class="footer-text footer-link">House Rules</p>
-            </a>
-            <a href="">
-                <p class="footer-text footer-link">Datapolitik</p>
-            </a>
-            <a href="">
-                <p class="footer-text footer-link">Medlemsbetingelser pr.</p>
-            </a>
-            <a href="">
-                <p class="footer-text footer-link">18/8/21</p>
-            </a>
-        </div>
-        <div class="footer-punkter">
-            <h4>Collabs</h4>
-            <div class="add"></div>
-        </div>
-        <div class="footer-punkter">
-            <h4>Follow</h4>
-            <div class="icon-split">
-                <i class="fa-brands fa-facebook-f" id="footer-icon"></i>
-                <i class="fa-brands fa-instagram" id="footer-icon2"></i>
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
-
-
+  </body>
 </html>
