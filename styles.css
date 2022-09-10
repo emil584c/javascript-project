@@ -288,12 +288,12 @@ h4 {
   background-color: transparent;
 }
 
-#knap1 {
+.knap1 {
   border: 2px white solid;
   color: white;
 }
 
-#knap1:hover {
+.knap1:hover {
   background-color: #47beaed6;
   transition: 0.3s;
 }
@@ -387,7 +387,6 @@ button:hover,
   align-items: center;
   justify-content: center;
   font-family: "Gotham";
-  font-family: 500;
   font-size: 20px;
 }
 
@@ -849,7 +848,7 @@ section {
   transform: translate(-16px, -3px);
 }
 
-#nomargin {
+.nomargin {
   margin: 0px;
 }
 
