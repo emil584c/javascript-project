@@ -10,17 +10,17 @@ function rollDice(){
     var status = document.getElementById("status");
     var d1 = Math.floor(Math.random() * 6) + 1;
     var d2 = Math.floor(Math.random() * 6) + 1;
-    var diceTotal = d1 + d2;
     die1.innerHTML = d1;
     die2.innerHTML = d2;
+    var diceTotal = d1 + d2;
     status.innerHTML = "DU SLOG" + " " + diceTotal
-    var result = d1 + d2;
+    
 
 
     // her skubber jeg resultaterne til arrays
-    allDiceRolls.push(result)
+    allDiceRolls.push(diceTotal)
     if (d1 + d2 > 9){
-        diceRolls.push(result)
+        diceRolls.push(diceTotal)
     }
 
     document.getElementById("throw").innerHTML="REPEAT"
